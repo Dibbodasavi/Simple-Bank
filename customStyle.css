@@ -1,0 +1,17 @@
+#background {
+  background-image: url(/Pictures/money.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body {
+  background-image: url(/Pictures/bank\ font.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/customStyle.css" />
+
+    <title>Baap Er Bank</title>
+  </head>
+  <body>
+    <section id="background-front">
+      <header>
+        <h1
+          class="
+            text-5xl text-center
+            m-16
+            border-2 border-white-700
+            bg-white
+            p-4
+            w-2/4
+            mx-auto
+            rounded-lg
+          "
+        >
+          Welcome to my
+          <span class="text-yellow-500 font-semibold">Baap Er Bank</span>
+        </h1>
+      </header>
+
+      <main>
+        <section class="bg-yellow-400 w-3/4 mx-auto p-10 rounded-lg">
+          <h3 class="mb-5 text-3xl font-semibold text text-green-900">
+            Please login
+          </h3>
+          <div action="">
+            <input
+              class="border-2 border-gray-400 w-full mb-5 rounded-lg p-2"
+              type="text"
+              name=""
+              id="user-email"
+              placeholder="Your name"
+            />
+            <input
+              class="border-2 border-gray-400 block w-full mb-5 rounded-lg p-2"
+              type="password"
+              name=""
+              id="user-password"
+              placeholder="Password"
+            />
+            <button
+              class="
+                border-2 border-black-400
+                bg-white
+                block
+                mb-5
+                rounded-lg
+                p-2
+              "
+              id="login-submit"
+            >
+              Submit
+            </button>
+          </div>
+
+          <p>Email: habijabi@ultapalta.com</p>
+          <p>Password: password</p>
+        </section>
+      </main>
+    </section>
+    <script src="/login.js"></script>
+  </body>
+</html>
