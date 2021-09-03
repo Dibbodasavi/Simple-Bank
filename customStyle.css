@@ -7,7 +7,7 @@
   position: relative;
 }
 
-body {
+#background-front {
   background-image: url(/Pictures/bank\ font.jpg);
   height: 500px;
   background-position: center;
